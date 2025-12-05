@@ -4,7 +4,8 @@ Leve em consideração que não são cores comuns!
 Você tem **3 tentativas** para descobrir a palavra correta.
 
 # Como executar
-1. Abra o link da página disponibilizado.
+1. Abra o link da página disponibilizado abaixo.
+Link do jogo:https://gustavocovre.github.io/jogo_das_cores_C3/
 
 2. Baixe ou clone o projeto caso queira rodar localmente.
 ```bash
