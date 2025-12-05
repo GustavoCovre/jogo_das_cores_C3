@@ -8,8 +8,6 @@ Você tem **3 tentativas** para descobrir a palavra correta.
 Link do jogo: https://gustavocovre.github.io/jogo_das_cores_C3/
 
 3. Baixe ou clone o projeto caso queira rodar localmente.
-```bash
-git clone https://github.com/seuusuario/color-hack.git
 
 # Tecnologias Utilizadas
 
