@@ -1,0 +1,113 @@
+/* Reset */
+*{
+    margin:0; padding:0; box-sizing:border-box;
+    font-family: "Courier New", monospace;
+}
+
+/* Fundo estilo terminal */
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:black;
+    color:#00ff9d;
+    overflow:hidden;
+}
+
+/* Efeito Matrix */
+body::before{
+    content:"";
+    position:absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    background:url('https://i.gifer.com/76cI.gif');
+    opacity:0.15;
+    pointer-events:none;
+}
+
+/* Terminal */
+.terminal{
+    width:90%;
+    max-width:480px;
+    background:#001b12;
+    padding:30px;
+    border:2px solid #00ff9d;
+    border-radius:8px;
+    box-shadow:0 0 20px #00ff9d70;
+    text-align:center;
+}
+
+.title{
+    font-size:1.6rem;
+    margin-bottom:5px;
+}
+
+.subtitle{
+    opacity:.8;
+    margin-bottom:25px;
+}
+
+/* Área do jogo */
+.game-area{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+/* Campo */
+#colorInput{
+    background:black;
+    border:2px solid #00ff9d;
+    padding:12px;
+    color:#00ff9d;
+    text-align:center;
+    font-size:1.1rem;
+}
+#colorInput:focus{
+    outline:none;
+    box-shadow:0 0 12px #00ff9d;
+}
+
+/* Botões */
+button{
+    padding:10px;
+    background:#00ff9d;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    border:none;
+    transition:.2s;
+}
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 10px #00ff9d;
+}
+
+.hint{
+    background:#005f46;
+    color:#00ff9d;
+}
+.hint:hover{
+    box-shadow:0 0 10px #00ff9d;
+}
+
+
+.restart{
+    background:#008f5e;
+}
+
+.output{
+    min-height:22px;
+    margin-top:8px;
+    font-weight:bold;
+}
+
+.success{ color:#33ff00; }
+.error{ color:#ff4040; }
+
+footer{
+    margin-top:20px;
+    opacity:.6;
+    font-size:.9rem;
+}

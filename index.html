@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Hack Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="terminal">
+    <h1 class="title">SYSTEM: COLOR HACK ACCESS</h1>
+    <p class="subtitle">Decodifique a cor secreta para obter acesso</p>
+
+    <div class="game-area">
+        <p class="attempts">Tentativas restantes: <span id="tries">3</span></p>
+
+        <input id="colorInput" type="text" placeholder="insira a cor..." autocomplete="off">
+        <button id="guessButton">ENVIAR</button>
+        <button id="hintButton" class="hint">OBTER DICA</button> 
+
+        <p id="result" class="output"></p>
+
+        <button id="restart" class="restart" style="display:none;">REINICIAR SISTEMA</button>
+    </div>
+
+    <footer>root@hacker:~$ aguardando input...</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
